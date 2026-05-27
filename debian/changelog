@@ -1,0 +1,5 @@
+php-symfony-dependency-injection (6.4.9) forky; urgency=medium
+
+  * Backport of Symfony DependencyInjection 6.4.9 for Debian forky.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 27 May 2026 12:00:00 +0200

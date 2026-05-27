@@ -1,0 +1,25 @@
+Source: php-symfony-dependency-injection
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), pkg-php-tools
+Standards-Version: 4.6.2
+Homepage: https://symfony.com/components/DependencyInjection
+Vcs-Git: https://github.com/VitexSoftware/php-symfony-dependency-injection.git
+Vcs-Browser: https://github.com/VitexSoftware/php-symfony-dependency-injection
+Rules-Requires-Root: no
+
+Package: php-symfony-dependency-injection
+Architecture: all
+Depends: ${misc:Depends},
+ php-common,
+ php-psr-container,
+ php-symfony-deprecation-contracts,
+ php-symfony-service-contracts,
+ php-symfony-var-exporter
+Description: Symfony DependencyInjection component (6.x backport for forky)
+ Allows you to standardize and centralize the way objects are constructed
+ in your application.
+ .
+ This is a backport of Symfony 6.4.x for Debian forky, providing the 6.x
+ series for applications that have not yet migrated to Symfony 7.
